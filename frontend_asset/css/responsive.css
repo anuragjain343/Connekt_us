@@ -1,0 +1,578 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1290px) {
+    .screenshot-btn {
+        width: 100%;
+        left: 0px;
+    }
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px){
+.features-area .feature-content.left-feature {
+    text-align: right;
+}
+.features-area .feature-content.left-feature i {
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* General Style */
+    .pn,
+    .prn,
+    .pln {
+        padding: 15px !important;
+    }
+    /* Navigation Section */
+    .navbar-default .navbar-nav li a {
+        padding: 20px 15px;
+    }
+    .navbar-default .navbar-nav > .active > a:after {
+        content: "";
+        position: absolute;
+        width: 2px;
+        height: 30px;
+        background: #111;
+        bottom: 13px;
+        left: 0px;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-header {
+        width: 100%;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block!important;
+        border-top: 1px solid #fff;
+        margin-top: 60px;
+    }
+    .nav-social {
+        text-align: center;
+    }
+    .navbar-default .navbar-brand {
+        width: 100px;
+    }
+    .navbar-default .navbar-nav {
+        text-align: left;
+    }
+    .navbar-nav > li {
+        width: 100%;
+    }
+    .nav-social {
+        display: none;
+    }
+    .navbar-brand {
+        padding: 10px;
+    }
+    /* Hero Section */
+    .hero-mockup-slider-area {
+        overflow: visible;
+    }
+    .hero-caption {
+        text-align: right;
+    }
+    .hero-title {
+        font-size: 45px;
+        margin-bottom: 0px;
+    }
+    .hero-subtitle {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .hero-button-area a {
+        margin-right: 5px;
+    }
+    .hero-mockup-slider .owl-dots {
+        bottom: -70px;
+        text-align: center;
+    }
+    /* Download Section */
+    .counter-item {
+        margin-bottom: 30px;
+    }
+    /* Feature Section */
+    .tab-wrap .nav-tabs > li.active:before,
+    .tab-wrap .nav-tabs > li.active:after {
+        display: none;
+    }
+    .tab-icon-wrap,
+    .tab-content-wrap .tab-text h2 {
+        padding-top: 0px;
+    }
+    .tab-content-wrap .tab-text p {
+        font-size: 13px;
+    }
+    .tab-content-wrap .tab-text h2 {
+        line-height: 24px;
+    }
+    .tab-icon {
+        margin-bottom: 30px;
+    }
+    .tab-number {
+        margin-top: 30px;
+    }
+    .tab-number span {
+        font-size: 45px;
+    }
+    /* Screenshot Area */
+    .screenshot-btn {
+        width: 90%;
+        left: 32px;
+    }
+    /* Pricing Table Section */
+    .pricing-table {
+        margin-bottom: 60px;
+    }
+    /* App Download Section */
+    .section-title-white p {
+        font-size: 20px;
+    }
+    .btn-download {
+        margin-bottom: 30px;
+    }
+    .btn-download-green {
+        margin: 5px;
+        padding: 10px 22px 10px 55px;
+    }
+    .btn-download-green .icon-box {
+        left: 15px;
+    }
+    /* Video Section */
+    .video-area {
+        padding: 100px 0px;
+        min-height: auto;
+    }
+    /* Footer Section */
+    .footer-bottom {
+        margin: 30px 0px;
+        padding: 15px;
+    }
+    .footer-content .address p {
+        margin-bottom: 5px;
+    }
+    .footer-content ul li {
+        margin-bottom: 12px;
+    }
+    .footer-content {
+        margin-bottom: 30px;
+    }
+    /* Blog Page */
+    .sidebar {
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    .leave-area-row {
+        width: 100%;
+    }
+    /* Comming Soon Page */
+    .comming-caption {
+        margin-top: 0px;
+    }
+    .cdown {
+        width: 250px;
+    }
+    .comming-caption .form-group {
+        width: 100%;
+    }
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    /* General Style */
+    .pn,
+    .prn,
+    .pln {
+        padding: 15px !important;
+    }
+    .inner-padding {
+        padding: 40px 0px;
+    }
+    .inner-padding160 {
+        padding: 60px 0px;
+    }
+    .section-title {
+        margin-bottom: 10px;
+    }
+    .section-title-white {
+        margin-bottom: 20px;
+    }
+    .section-title-2-white h2:before {
+        left: -40px;
+    }
+    .section-title-2-white h2:after {
+        right: -40px;
+    }
+    /* Navigation Section */
+    .topbar-area {
+        top: 0px;
+        bottom: inherit;
+        position: fixed;
+        border: 0px;
+    }
+    .navbar-default .navbar-brand {
+        width: 50%;
+    }
+    .navbar-toggle {
+        margin-top: 20px;
+    }
+    .navbar-default .navbar-nav > .active > a:after {
+        display: none;
+    }
+    .navbar-default .navbar-nav li {
+        text-align: left;
+    }
+    .navbar-default .navbar-nav li a {
+        padding: 15px;
+    }
+    /* Hero Section */
+    .hero-area-inner {
+        bottom: 15%;
+    }
+    .hero-caption {
+        text-align: center;
+    }
+    .hero-title {
+        font-size: 35px;
+        margin-top: 80px;
+        margin-bottom: 0px;
+        line-height: 55px;
+    }
+    .hero-subtitle {
+        font-size: 25px;
+        margin-bottom: 50px;
+        line-height: 40px;
+    }
+    .hero-caption p {
+        margin-bottom: 20px;
+    }
+    .hero-button-area {
+        margin-top: 5px;
+        margin-bottom: 60px;
+    }
+    .hero-button-area a {
+        margin-right: 8px;
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+    .hero-mockup-slider .owl-dots {
+        text-align: center;
+        bottom: -5px;
+    }
+    /* Download Section */
+    .counter-item {
+        margin-bottom: 50px;
+    }
+    .download-area .col-xs-12:last-child {
+        margin-bottom: 0px;
+    }
+    /* About Section */
+    .about-caption {
+        padding: 0px;
+        padding-right: 0px;
+    }
+    .slide-counter {
+        display: none;
+    }
+    .about-caption-title {
+        margin-bottom: 30px;
+    }
+    .about-caption {
+        text-align: center;
+    }
+    .about-mockup-navigation {
+        margin-top: 0px;
+    }
+    /* Feature Section */
+    .tab-total {
+        margin-top: 0px;
+    }
+    .tab-wrap .nav-tabs {
+        margin-bottom: 70px;
+    }
+    .tab-wrap .nav-tabs > li {
+        text-align: center;
+        display: inline-block;
+        width: 50%;
+        height: 45px;
+        line-height: 65px;
+    }
+    .tab-wrap .nav-tabs > li.active:before,
+    .tab-wrap .nav-tabs > li.active:after,
+    .tab-icon {
+        display: none;
+    }
+    .tab-wrap .nav-tabs > li > a,
+    .tab-wrap .nav-tabs > li.active > a {
+        font-size: 14px;
+        display: block;
+        width: 100%;
+        height: 100%;
+        line-height: 45px;
+        padding: 0px;
+        padding-left: 5px;
+    }
+    .tab-icon-wrap,
+    .tab-content-wrap .tab-text h2 {
+        padding-top: 0px;
+    }
+    .tab-content-wrap .tab-text {
+        text-align: center;
+    }
+    /* Application Options */
+    .application-info {
+        text-align: center;
+        padding-top: 30px;
+    }
+    .application-info h4 {
+        display: block;
+        text-align: center;
+        font-size: 20px;
+    }
+    .application-info .icon-box {
+        text-align: center;
+    }
+    /* Pricing Table Section */
+    .pricing-table {
+        margin-bottom: 40px;
+    }
+    /* App Download Section */
+    .section-title-white p {
+        font-size: 14px;
+    }
+    .download-box .btn-download:last-child {
+        margin-bottom: 0;
+    }
+    .btn-download {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .btn-download-green {
+        margin-bottom: 30px;
+        margin-right: 0px;
+    }
+    .btn-download-green:last-child {
+        margin-bottom: 0px;
+    }
+    /* Screenshot Section */
+    .screen-slider {
+        min-height: 460px;
+    }
+    .responsiveGallery-container {
+        height: 460px;
+    }
+    .screenshot-btn {
+        width: 88%;
+        left: 20px;
+        top: 43%;
+    }
+    .screenshot-btn p {
+        font-size: 14px;
+    }
+    .responsiveGallery-btn_prev:before {
+        font-size: 16px;
+        left: -25px;
+    }
+    .responsiveGallery-btn_next:after {
+        font-size: 16px;
+        right: -25px;
+    }
+    /* Team Carousel Section */
+    .team-nav {
+        display: none;
+    }
+    .team-carousel .item .item-inner .item-content {
+        padding-top: 30px;
+    }
+    .testimonial-carousel {
+        padding: 130px 30px 20px 30px;
+    }
+    .testimonial-nav {
+        padding: 0px 20px;
+    }
+    /* Testimonial Section */
+    .slick-prev:before {
+        left: -30px;
+        top: 120px;
+    }
+    .slick-next:before {
+        right: 5px;
+        top: 120px;
+    }
+    .testimonial-area-inner {
+        padding: 20px 30px 20px 30px;
+    }
+    /* Video Section */
+    .play-button img {
+        height: 70px;
+    }
+    .video-area {
+        padding: 70px 0px;
+        min-height: auto;
+    }
+    .section-title-2-white {
+        margin-bottom: 0;
+    }
+    /* Footer Section */
+    .footer-content {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .follow {
+        padding: 15px;
+        text-align: center;
+    }
+    /* Blog Page */
+    .blog-area {
+        padding: 30px 0px 0px!important;
+    }
+    .header-caption {
+        padding-right: 0px;
+    }
+    .sidebar {
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    .post-item .post-feature {
+        width: 80px;
+        height: 80px;
+    }
+    .post-footer {
+        margin-bottom: 30px;
+    }
+    .user-comment {
+        padding: 115px 0px 0px 0px;
+    }
+    .leave-area-row {
+        width: 100%;
+    }
+    .social-share-title {
+        margin: 0px;
+    }
+    .cmnt-divider {
+        display: none;
+    }
+    /* Comming Soon Page */
+    .comming-wrap {
+        padding: 40px 0px;
+    }
+    .upcoming {
+        padding: 0px 0px 40px;
+    }
+    .cdown {
+        width: 140px;
+    }
+    .comming-caption .form-group {
+        width: 100%;
+    }
+    .comming-caption .form-control {
+        width: 85%;
+        text-align: center;
+        border-bottom: 2px solid #d8d8d8;
+        margin-bottom: 15px;
+    }
+    .cdown .time-count {
+        font-size: 40px;
+    }
+    /* Contact Us Page */
+    .adderss-widget {
+        padding: 30px;
+        text-align: center;
+    }
+    .contact-number {
+        display: inline-block;
+    }
+    /* 404 Page */
+    .btn-lg {
+        font-size: 20px;
+        line-height: 35px;
+        padding: 15px;
+    }
+    .pt60 {
+        padding-top: 0px;
+    }
+    .xspt60 {
+        padding-top: 30px;
+    }
+    .d-flex {
+        display: block;
+        display: block;
+        display: block;
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (max-width: 640px) {
+.about-right .col-xs-6 {
+    width: 100%;
+    text-align: center;
+}
+}
+
+@media only screen and (min-width: 375px) and (max-width: 414px) {
+    /* Team Section */
+    .team-carousel .item .item-inner .item-content {
+        padding-top: 60px;
+    }
+    /* Application Option Section */
+    .vr-carousel li {
+        padding: 35px 15px;
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+    /* Hero Section */
+    .hero-title {
+        font-size:27px;
+        line-height: 45px;
+        margin-top: 40px;
+    }
+    .hero-subtitle {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+    .hero-caption p {
+        font-size:13px;
+    }
+    .hero-button-area {
+        margin-bottom: 30px;
+    }
+    /* ScreenShort Section */
+    .responsiveGallery-container {
+        height: 380px;
+    }
+    .screen-slider {
+        min-height: 360px;
+    }
+    /* Team Carousel Section */
+    .team-carousel .item .item-inner .item-content {
+        padding: 0px;
+    }
+    /* Application Option Section */
+    .vr-carousel li {
+        padding: 35px 15px;
+    }
+}
+
+/* Wide Mobile Layout: 320px. */
+
+@media only screen and (min-width: 320px) and (max-width: 325px) {
+    /* ScreenShort Section */
+    .responsiveGallery-container {
+        height: 320px;
+    }
+    .screen-slider {
+        min-height: 320px;
+    }
+}

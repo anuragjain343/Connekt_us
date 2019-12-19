@@ -1,0 +1,1740 @@
+{
+	"info": {
+		"name": "ConnektUs- Localhost",
+		"_postman_id": "7c653fa6-da1e-9dee-9663-c4cf99287aa3",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Registration",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "fullName",
+							"value": "Manish Business",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "userType",
+							"value": "business",
+							"type": "text",
+							"description": "business, individual"
+						},
+						{
+							"key": "password",
+							"value": "111111",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "email",
+							"value": "bhaskarm.indiii@gmail.com",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "businessName",
+							"value": "Hello Ashish",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "phone",
+							"value": "9691665576",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost/connektus/service/registration",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "getDropdownList",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "f23ef49a138e0985b942b683f279e3dd0144dc74"
+					}
+				],
+				"body": {},
+				"url": "http://localhost/connektus/service/users/getDropdownList",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "Forgot Password",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "bhaskar.mindiii@gmail.com",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://uconnekt.com.au/service/resetPassword",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "interviewRequest",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "b4a9f9571f81ec984a21dcfc354a08e895982a83"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "type",
+							"value": "employer",
+							"type": "text"
+						},
+						{
+							"key": "interviewer_name",
+							"value": "jack",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "pune",
+							"type": "text"
+						},
+						{
+							"key": "latitude",
+							"value": "63.00",
+							"type": "text"
+						},
+						{
+							"key": "longitude",
+							"value": "32",
+							"type": "text"
+						},
+						{
+							"key": "date",
+							"value": "2018-05-12",
+							"type": "text"
+						},
+						{
+							"key": "time",
+							"value": "03:23:00 PM",
+							"type": "text"
+						},
+						{
+							"key": "interview_for",
+							"value": "28",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost/connektus/service/users/interviewRequest",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "updateRequestStatus",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "b4a9f9571f81ec984a21dcfc354a08e895982a83"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "request_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost/connektus/service/users/updateRequestStatus",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "deleteRequest",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "b4a9f9571f81ec984a21dcfc354a08e895982a83"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "request_id",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost/connektus/service/users/deleteRequest",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "Update Experience - Individual",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "64b0251a372226fc7e1e5c856429aecb12f4099c"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "current_job_title",
+							"value": "86",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "current_company",
+							"value": "Midiiii system Pvt Ltd",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "current_start_date",
+							"value": "2018-04-24",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "current_finish_date",
+							"value": "",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "previous_role",
+							"value": "",
+							"type": "text",
+							"description": "[{\"experience\":\"3\",\"previous_company_name\":\"thjhjj\",\"previous_description\":\"fgjyfgjuu\",\"previous_job_title\":\"22\",\"previous_role_id\":\"\"},{\"experience\":\"1\",\"previous_company_name\":\"gyy to the you y\",\"previous_description\":\"hhh+TT+us\",\"previous_job_title\":\"22\",\"previous_role_id\":\"\"},{\"experience\":\"4\",\"previous_company_name\":\"hhygyyy\",\"previous_description\":\"hhjiiuu+to+the+only+one+who\",\"previous_job_title\":\"22\",\"previous_role_id\":\"\"}]"
+						},
+						{
+							"key": "next_availability",
+							"value": "",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "next_speciality",
+							"value": "",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "next_location",
+							"value": "",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "current_description",
+							"value": "test",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "expectedSalary",
+							"value": "0-20000",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost/connektus/service/users/updateExperience",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "Get User Profile",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "60fc12787bfcc33e50ed46b82ec6f5e992609421"
+					}
+				],
+				"body": {},
+				"url": "http://localhost/connektus/service/users/getUserProfile",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "profileUpdate",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "de509d95baecc5ddc5d14c0a8f32294d1f811c79"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "area_of_specialization",
+							"value": "4",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "address",
+							"value": "punjab",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "bio",
+							"value": "What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. 😀",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "latitude",
+							"value": "67.00",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "longitude",
+							"value": "34",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "job_title",
+							"value": "10",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "fullName",
+							"value": "Bhaskar",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "businessName",
+							"value": "Accounts",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "company_logo",
+							"value": "",
+							"description": "",
+							"type": "file"
+						},
+						{
+							"key": "profileImage",
+							"value": "",
+							"description": "",
+							"type": "file"
+						},
+						{
+							"key": "city",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "state",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "country",
+							"value": "",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost/connektus/service/users/profileUpdate",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "addReview",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "6721dd9fc1c284b6733bea57ca596a14d26be63b"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "review_for",
+							"value": "607",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "rating",
+							"value": "1",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "comments",
+							"value": "What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "is_anonymous",
+							"value": "1",
+							"type": "text",
+							"description": ""
+						}
+					]
+				},
+				"url": "http://localhost/connektus/service/users/addReview",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "Update Basic info - Individual",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "64b0251a372226fc7e1e5c856429aecb12f4099c"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "area_of_specialization",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "Indore, Madhya Pradesh, India",
+							"type": "text"
+						},
+						{
+							"key": "bio",
+							"value": "What is Lorem Ipsum?",
+							"type": "text"
+						},
+						{
+							"key": "latitude",
+							"value": "22.719569",
+							"type": "text"
+						},
+						{
+							"key": "longitude",
+							"value": "75.857726",
+							"type": "text"
+						},
+						{
+							"key": "value",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "strength",
+							"value": "3,4",
+							"type": "text"
+						},
+						{
+							"key": "city",
+							"value": "Indore",
+							"type": "text"
+						},
+						{
+							"key": "state",
+							"value": "Madhya Pradesh",
+							"type": "text"
+						},
+						{
+							"key": "country",
+							"value": "India",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost/connektus/service/users/updateBasicInfo",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "updateResume",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "60ada3f559feb33c57b16a264afb2ad4d0004d2e"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "resume",
+							"type": "file",
+							"value": ""
+						},
+						{
+							"key": "cv",
+							"type": "file",
+							"value": ""
+						}
+					]
+				},
+				"url": "http://localhost/connektus/service/users/updateResume",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "addFavourites",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "ac44733ddc34093528aad851d5c7bfc2eadfb008"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "favourite_for",
+							"value": "8",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost/connektus/service/users/addFavourites",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "addRecommends",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "ac44733ddc34093528aad851d5c7bfc2eadfb008"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "recommend_for",
+							"value": "8",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost/connektus/service/users/addRecommends",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "Business Search List",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "95170e55f1f3686d7e78400ac707807a84a3953d"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "speciality_id",
+							"value": "",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "job_title",
+							"value": "1",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "availability",
+							"value": "",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "location",
+							"value": "",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "strength",
+							"value": "",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "value",
+							"value": "",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "city",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "country",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "pagination",
+							"value": "1",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "state",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "limit",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "offset",
+							"value": "",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "http://localhost/connektus/service/users/getBusinessSearchList",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "Indiviual search list",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "2bd0e0055b071973a65b1d3056b5a267e87938ad"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "speciality_id",
+							"value": "",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "rating",
+							"value": "",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "location",
+							"value": "",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "city",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "country",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "state",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "pagination ",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "employementType",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "expectedSalaryFrom",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "experienceFrom",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "experienceTo",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "offset",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "limit",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "company",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "job_title",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "expectedSalaryTo",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "strength",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "value",
+							"value": "",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost/connektus/service/users/getIndivisualSearchList",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "getCompany",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "c8c698d07980bbd5ef5ebf9677a32b373e395bf6"
+					}
+				],
+				"body": {},
+				"url": "http://localhost/connektus/service/users/getCompany",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "updateResume",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "9aa417315afa890558c68b9ea64ae2de5b13db60"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "resume",
+							"value": "",
+							"type": "file"
+						},
+						{
+							"key": "cv",
+							"value": "",
+							"type": "file"
+						}
+					]
+				},
+				"url": "http://localhost/connektus/service/users/updateResume",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "getMyProfile",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "asdasdsadsadsadsda"
+					}
+				],
+				"body": {},
+				"url": "http://localhost/connektus/service/users/getMyProfile",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "getPublicProfile",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "bdcd7b6c56d822321ec662bac8968867562198c5"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "http://localhost/connektus/service/users/getPublicProfile?user_id=145",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"connektus",
+						"service",
+						"users",
+						"getPublicProfile"
+					],
+					"query": [
+						{
+							"key": "user_id",
+							"value": "145",
+							"equals": true
+						}
+					]
+				},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "getUserReviews",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "31f63ce42fe281784b85a8f7b9abad83822e29ce"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "http://localhost/connektus/service/users/getUserReviews?user_id=&limit=2&offset=0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"connektus",
+						"service",
+						"users",
+						"getUserReviews"
+					],
+					"query": [
+						{
+							"key": "user_id",
+							"value": "",
+							"equals": true
+						},
+						{
+							"key": "limit",
+							"value": "2",
+							"equals": true
+						},
+						{
+							"key": "offset",
+							"value": "0",
+							"equals": true
+						}
+					]
+				},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "getUserRecommends",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "f2c29127c8a81f8578f5d44b639ee8daad7ca69e"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "http://localhost/connektus/service/users/getUserRecommends?user_id=1&limit=20&offset=0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"connektus",
+						"service",
+						"users",
+						"getUserRecommends"
+					],
+					"query": [
+						{
+							"key": "user_id",
+							"value": "1",
+							"equals": true
+						},
+						{
+							"key": "limit",
+							"value": "20",
+							"equals": true
+						},
+						{
+							"key": "offset",
+							"value": "0",
+							"equals": true
+						}
+					]
+				},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "getUserFavourites",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "5304deff592c8c8b4b535a2f5542a0c05922a53a"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "http://localhost/connektus/service/users/getUserFavourites?user_id=370&limit=20&offset=0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"connektus",
+						"service",
+						"users",
+						"getUserFavourites"
+					],
+					"query": [
+						{
+							"key": "user_id",
+							"value": "370",
+							"equals": true
+						},
+						{
+							"key": "limit",
+							"value": "20",
+							"equals": true
+						},
+						{
+							"key": "offset",
+							"value": "0",
+							"equals": true
+						}
+					]
+				},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "addView",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "d41067744101091d837bb46db8ac6100482a8dc2"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "view_for",
+							"value": "2",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost/connektus/service/users/addView",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "getUserPersonalInfo",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "6ee3d4f4152d8a8e0b9cf4ebf85e0e07408b8de6"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "http://localhost/connektus/service/users/getUserPersonalInfo?user_id=139",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"connektus",
+						"service",
+						"users",
+						"getUserPersonalInfo"
+					],
+					"query": [
+						{
+							"key": "user_id",
+							"value": "139",
+							"equals": true
+						}
+					]
+				},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "update Indivisual Profile",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "a0d5711931b05773ea2344c1d2958f3791e77770"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "fullName",
+							"value": "chetan T",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "profileImage",
+							"value": "",
+							"type": "file",
+							"description": ""
+						},
+						{
+							"key": "area_of_specialization",
+							"value": "47",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "strength",
+							"value": "6,13",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "value",
+							"value": "35,11",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "bio",
+							"value": "What is Lorem Ipsum?",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "address",
+							"value": "Indore, Madhya Pradesh, India",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "city",
+							"value": "Indore",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "state",
+							"value": "Madhya Pradesh",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "country",
+							"value": "India",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "latitude",
+							"value": "22.7195686999",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "longitude",
+							"value": "75.8577258",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "phone",
+							"value": "9669166557",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost/connektus/service/users/updateIndivisualProfile",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "ch.etanmindiii@gmail.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "userType",
+							"value": "business",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost/connektus/service/login",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "getUserView",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "fcb453ec7840c9d64ffd7a0704181f6b6758a0af"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "http://localhost/connektus/users/getUserView?user_id=301&limit=20&offset=0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"connektus",
+						"users",
+						"getUserView"
+					],
+					"query": [
+						{
+							"key": "user_id",
+							"value": "301",
+							"equals": true
+						},
+						{
+							"key": "limit",
+							"value": "20",
+							"equals": true
+						},
+						{
+							"key": "offset",
+							"value": "0",
+							"equals": true
+						}
+					]
+				},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "sendNotification",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "8b9249fb0c14a621aac4744b7c458d65fc650c8a"
+					}
+				],
+				"body": {},
+				"url": "http://localhost/connektus/service/users/sendNotification",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "interview request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "d722633778a93dcd9a33c522acda409cc00d04e3"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "interviewerName",
+							"value": "Bhaskar Dutt Sharma",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "requestedFor",
+							"value": "302",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "bhaskar dutt",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "latitude",
+							"value": "1115541244",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "longitude",
+							"value": "1211545444",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "date",
+							"value": "24-Aug-2018",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "time",
+							"value": "03:00 PM",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "Employer",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost/connektus/service/requests/makeRequest",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "interview request response ",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "d722633778a93dcd9a33c522acda409cc00d04e3"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "action",
+							"value": "2",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "interviewId",
+							"value": "91",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost/connektus/service/requests/acceptDeclinedRequest",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "delete interview Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "d722633778a93dcd9a33c522acda409cc00d04e3"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "interviewId",
+							"value": "69",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost/connektus/service/requests/deleteRequest",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "processData",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "4facf23d1012c256655128b8838eb2c0dfad77f4"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "requestBy",
+							"value": "349",
+							"type": "text"
+						},
+						{
+							"key": "requestFor",
+							"value": "361",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost/connektus/service/requests/processData",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "Offer not offered status changed in tracking",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "d722633778a93dcd9a33c522acda409cc00d04e3"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "interviewId",
+							"value": "29",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "action",
+							"value": "1",
+							"description": "1 for offerd, 2 for not offerd",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost/connektus/service/requests/offerdNotOfferd",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "update Business profile",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "9a04f8167ccb46df69b12704dea327ba3dff351d"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "area_of_specialization",
+							"value": "3",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "Australia",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "job_title",
+							"value": "3",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Hello this is bhaskar",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "company_logo",
+							"value": "",
+							"description": "",
+							"type": "file"
+						}
+					]
+				},
+				"url": "http://localhost/connektus/service/users/updateBusinessProfile",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "get_badge_count",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "asdasdsadasdsadsadsasadsa"
+					}
+				],
+				"body": {},
+				"url": "http://localhost/connektus/service/users/badge_count_unread_views",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "update_notification_status",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "asdasdsadasdsadsadsasadsa"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "934",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost/connektus/service/users/update_notification",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "reset password",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "bhaskar.mindiii@gmail.com",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost/connektus/service/resetPassword",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "uprofile_inactive_user",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "7862f98ec24d670a53550e3e1f919ff00d5fd375"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "password",
+							"value": "111111",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost/connektus/service/users/profile_inactive_user",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "uprofile_inactive_user",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "29b65f33e5b7c42847927d207fe204c76a893b18"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "password",
+							"value": "111111",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost/connektus/service/users/profile_inactive_user",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "Feedback",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "d2c95385dcc6f36aea8148597b056c6c03030554"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "rating",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "message",
+							"value": "Hello this is feedback email",
+							"type": "text"
+						},
+						{
+							"key": "subject",
+							"value": "Excellent service",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost/connektus/service/users/addFeedback",
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "Get Contact Us",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "58abb51eeffada7108976264581fcb2049038dc4"
+					}
+				],
+				"body": {},
+				"url": "http://localhost/connektus/service/options/getContactUs",
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get TNC ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": "http://localhost/connektus/service/options/getTNC",
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "get About us",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": "http://localhost/connektus/service/options/getAboutUs",
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "get privacy policy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": "http://localhost/connektus/service/options/getPrivacy",
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
